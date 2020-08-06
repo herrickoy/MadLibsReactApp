@@ -21,6 +21,9 @@ body {
     -webkit-tap-highlight-color: transparent;
 }
 
-@import 'mixins.scss';
-@import 'components/madlib_form.scss';
-@import 'header.scss';
+@import 'mixins';
+@import 'header';
+
+@import 'components/madlib_content';
+@import 'components/madlib_form';
+

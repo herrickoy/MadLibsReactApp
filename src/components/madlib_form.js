@@ -44,6 +44,15 @@ class MadlibForm extends Component {
             nounOne: '',
             numberOne: '',
             numberTwo: '',
+            nounTwo: '',
+            adjectiveThree: '',
+            celebrityTwo: '',
+            celebrityThree: '',
+            adjectiveFour: '',
+            nounThree: '',
+            celebrityFour: '',
+            adjectiveFive: ''
+            
         }
 
     }
@@ -133,7 +142,7 @@ class MadlibForm extends Component {
                         </Row>
                     </form>
 
-                    <MadlibContent data={this.state}/>
+                    <MadlibContent data={this.state} />
                     
                 </Card>
             </div>
